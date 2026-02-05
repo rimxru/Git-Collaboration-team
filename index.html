@@ -1,169 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Watermelon</title>
-</head>
-<body>
-    <link rel="stylesheet" href="style.css"> 
-<div class="container"> 
-  <header id="header">
-  <table width="100%" bgcolor="#2E7D32" border="0" cellspacing="0" cellpadding="10">
-    <tr>
-      <td align="right">
-        <font color="#ffffff" size="2" face="sans-serif">ยินดีต้อนรับสู่โลกของแตงโมหวานฉ่ำ 🍉</font>
-      </td>
-    </tr>
-  </table>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header"></header>
+      <section id="hero"></section>
+      <main id="content"></main>
+      <aside id="sidebar"></aside>
+      <footer id="footer" bgcolor="#f4f4f4">
+        <hr color="#cccccc" size="1" />
+        <br />
 
-  <table width="100%" bgcolor="#FF5252" border="0" cellspacing="0" cellpadding="20">
-    <tr>
-      <td width="30%">
-        <font size="6" color="#ffffff" face="Tahoma">
-          <strong>WATER<font color="#2E7D32">MELON</font></strong>
-        </font>
-      </td>
+        <table width="100%" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td align="center">
+              <table
+                border="0"
+                cellspacing="0"
+                cellpadding="5"
+                style="font-family: sans-serif"
+              >
+                <tr>
+                  <td colspan="2" align="center">
+                    <font size="5" color="#333333"
+                      ><b>รายชื่อสมาชิกกลุ่ม</b></font
+                    >
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td width="30"><font color="#666666">1.</font></td>
+                  <td><font size="3">Chonlasap Mattawewong 21</font></td>
+                </tr>
+                <tr>
+                  <td><font color="#666666">2.</font></td>
+                  <td><font size="3">Pokpong Pathumdamrong 28</font></td>
+                </tr>
+                <tr>
+                  <td><font color="#666666">3.</font></td>
+                  <td><font size="3">Nathirun Hirunparphavich 29</font></td>
+                </tr>
+                <tr>
+                  <td><font color="#666666">4.</font></td>
+                  <td><font size="3">Apinan Arsakud 38</font></td>
+                </tr>
+              </table>
 
-      <td width="70%" align="right">
-        <font face="sans-serif" size="3">
-          <a href="#hero" style="color: white; text-decoration: none;">หน้าแรก</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-          <a href="#content" style="color: white; text-decoration: none;">สายพันธุ์แตงโม</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-          <a href="#sidebar" style="color: white; text-decoration: none;">สาระน่ารู้</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-          <a href="#footer" style="color: white; text-decoration: none;">ติดต่อทีมงาน</a>
-        </font>
-      </td>
-    </tr>
-  </table>
-  
-  <table width="100%" bgcolor="#A5D6A7" border="0" cellspacing="0" cellpadding="2">
-    <tr><td></td></tr>
-  </table>
-</header>
-<div class="hero-content" style="
-      background: linear-gradient(135deg, #ff4d6d, #ff9a9e);
-      padding: 50px 30px;
-      border-radius: 24px;
-      text-align: center;
-      color: white;
-      max-width: 900px;
-      margin: 60px auto;
-      box-shadow: 0 25px 50px rgba(0,0,0,0.25);
-      backdrop-filter: blur(6px);
-    ">
-      <h1 style="font-size: 48px; margin-bottom: 10px; letter-spacing: 1px;">
-        🍉 แตงโม ผลไม้สดชื่นคลายร้อน
-      </h1>
+              <br /><br />
 
-      <h3 style="font-weight: 400; margin-bottom: 20px; opacity: 0.95;">
-        หวาน ฉ่ำ น้ำเยอะ เหมาะกับอากาศประเทศไทย
-      </h3>
-
-      <p style="font-size: 18px; line-height: 1.7; max-width: 700px; margin: 0 auto 25px;">
-        แตงโมเป็นผลไม้ที่มีน้ำมาก ให้ความสดชื่น เหมาะกับอากาศร้อน
-        มีวิตามิน A วิตามิน C และสารไลโคปีนที่ช่วยบำรุงร่างกาย
-        อีกทั้งยังช่วยเติมน้ำให้ร่างกายในวันที่อากาศร้อนจัด
-      </p>
-
-      <img 
-        src="https://images.unsplash.com/photo-1563114773-84221bd62daa?auto=format&fit=crop&w=1200&q=80" 
-        alt="แตงโม" 
-        style="
-          width: 100%;
-          max-width: 520px;
-          border-radius: 20px;
-          box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-          margin-bottom: 25px;
-          transition: transform 0.4s ease;
-        "
-        onmouseover="this.style.transform='scale(1.05)'"
-        onmouseout="this.style.transform='scale(1)'"
-      />
-
-      <div>
-        <button style="
-          padding: 14px 28px;
-          font-size: 18px;
-          border: none;
-          border-radius: 14px;
-          cursor: pointer;
-          font-weight: bold;
-          background: white;
-          color: #ff4d6d;
-          box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-          transition: all 0.3s ease;
-        "
-        onmouseover="this.style.transform='translateY(-3px)'"
-        onmouseout="this.style.transform='translateY(0)'">
-          ดูข้อมูลแตงโมเพิ่มเติม
-        </button>
-      </div>
+              <table
+                width="100%"
+                border="0"
+                cellspacing="0"
+                cellpadding="10"
+                bgcolor="#333333"
+              >
+                <tr>
+                  <td align="center">
+                    <font color="#ffffff" size="2" face="sans-serif">
+                      &copy; 2026 <b>FEAT-FOOTER Project</b> | All Rights
+                      Reserved
+                    </font>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </footer>
     </div>
-  </section>
-  <main id="content">
-    <div style="max-width: 900px; margin: 60px auto; font-family: Arial, sans-serif; line-height: 1.7;">
-      <h2 style="font-size: 32px; margin-bottom: 20px;">ประวัติและพันธุ์แตงโม</h2>
-
-      <p style="margin-bottom: 18px;">
-        แตงโมเป็นผลไม้ที่มีต้นกำเนิดในทวีปแอฟริกา และถูกนำมาปลูกในหลายประเทศทั่วโลก
-        รวมถึงประเทศไทย ซึ่งมีการพัฒนาสายพันธุ์ให้เหมาะกับสภาพอากาศร้อนและความต้องการของผู้บริโภค
-      </p>
-
-      <h3 style="margin-top: 30px;">พันธุ์แตงโมที่นิยม</h3>
-
-      <ul style="margin-top: 15px; padding-left: 20px;">
-        <li style="margin-bottom: 10px;">
-          <strong>แตงโมกินรี</strong> – เนื้อสีแดง รสหวาน เปลือกบาง นิยมปลูกในประเทศไทย
-        </li>
-        <li style="margin-bottom: 10px;">
-          <strong>แตงโมซานต้า</strong> – ผลใหญ่ เนื้อแน่น หวานจัด เหมาะกับการค้าเชิงพาณิชย์
-        </li>
-        <li style="margin-bottom: 10px;">
-          <strong>แตงโมเหลือง</strong> – เนื้อสีเหลือง รสหวานหอม เนื้อนุ่ม เป็นที่นิยมเพิ่มขึ้น
-        </li>
-        <li style="margin-bottom: 10px;">
-          <strong>แตงโมไร้เมล็ด</strong> – กินง่าย สะดวก เหมาะกับตลาดสมัยใหม่
-        </li>
-      </ul>
-
-      <h3 style="margin-top: 30px;">ความสำคัญของการพัฒนาสายพันธุ์</h3>
-
-      <p>
-        การพัฒนาพันธุ์แตงโมช่วยเพิ่มความหวาน ความทนโรค และผลผลิตต่อไร่
-        ทำให้เกษตรกรสามารถปลูกได้คุณภาพดี และตอบโจทย์ตลาดผู้บริโภคมากขึ้น
-      </p>  
-  <aside id="sidebar">
-  <h3>สมาชิกกลุ่ม</h3>
-  <div>
-    <strong>GER</strong>
-    <ul>
-      <li><a href="#">GitHub</a>https://github.com/chonlasapmatt-art</li>
-      <li><a href="#">Instagram</a>https://www.instagram.com/shadowz0w0/</li>
-    </ul>
-  </div>
-  <div>
-    <strong>Pong</strong>
-    <ul>
-      <li><a href="#">GitHub</a>https://github.com/rimxru</li>
-      <li><a href="#">Instagram</a>http://instagram.com/shizyuutensuzaku/</li>
-    </ul>
-  </div>
-  <div>
-    <strong>RIFLE</strong>
-    <ul>
-      <li><a href="#">GitHub</a>https://github.com/EDITYOY</li>
-      <li><a href="#">Instagram</a>https://www.instagram.com/nrperx/</li>
-    </ul>
-  </div>
-
-  <div>
-    <strong>ONE</strong>
-    <ul>
-      <li><a href="#">GitHub</a>https://github.com/Apinan1-tot</li>
-      <li><a href="#">Instagram</a>https://www.instagram.com/apinan_1a/</li>
-    </ul>
-  </div>
-</aside>
-  <footer id="footer"></footer>
-</div>
-  </main>
+  </body>
+</html>
